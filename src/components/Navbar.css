@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* スマホサイズ対応 */
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column; /* アイテムを縦に並べる */
+    align-items: flex-start; /* 左寄せにする */
+    gap: 0.5rem; /* 縦方向の隙間を調整 */
+  }
+
+  .navbar ul li {
+    display: block; /* 縦並び用 */
+  }
+
+  .navbar ul li a {
+    padding: 0.5rem 0; /* タッチ操作しやすいように上下に余白を追加 */
+    display: block; /* リンク全体がタッチ領域になるよう調整 */
+  }
+}

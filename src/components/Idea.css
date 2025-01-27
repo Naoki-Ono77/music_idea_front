@@ -1,0 +1,42 @@
+.Idea {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;  /* 親ボックスを中央に配置 */
+  align-items: center;      /* 親ボックス内で縦方向に中央に配置 */           /* 画面全体の高さを確保 */
+}
+
+.editarea {
+  display: flex;
+  width: 500px;
+  flex-direction: column; /* 縦に並べる場合 */
+  align-items: flex-start; /* 左揃えにする */
+  padding: 10px;
+  border: 1px solid black;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+

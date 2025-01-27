@@ -1,0 +1,5 @@
+button {
+    width: auto; /* 自動調整にする */
+    max-width: 200px; /* 必要に応じて最大幅を制限 */
+  }
+  
