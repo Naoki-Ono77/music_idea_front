@@ -7,4 +7,6 @@ music-idea-6f923.web.app
 - タイトルとアイデア内容をカードに書き込み、カテゴリを選択して投稿
 - 投稿されたカードにはコメントを付けたりお気に入り登録したりできる
 ## ツール
-React(JavaScript+HTML/CSS), firebase
+React(JavaScript+HTML/CSS)を使用
+
+データベース、ホスティングにfirebaseを使用
